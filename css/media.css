@@ -1,0 +1,119 @@
+@media screen and (max-width: 1142px){
+    .perfect-music__content{padding: 50px 510px 50px 25px;}
+    .perfect-music__photo{padding-right: 25px;}
+
+}
+
+@media screen and (max-width: 1100px){
+    /*[class*="__container"]{max-width: 970px}*/
+    .header__logo {margin: 0 0 0 10px}
+    .menu__item:not(:last-child){margin: 0 30px 0 0}
+    .photos-bright-lights{padding: 0 50px;}
+    .about-us__container{display: block;}
+    .about-us{padding: 100px 0}
+    .about-us__block-text {margin: 0 0 30px 0}
+    .perfect-music__content{border: none; padding: 0;}
+    .perfect-music__container{justify-content: space-around;}
+    .perfect-music__photo{position: static;}
+    .perfect-music__photo img{padding-left: 20px;}
+    
+
+}
+
+@media screen and (max-width: 991.98px){
+    .header__menu {margin: 0 0 0 35px}
+    .menu__item:not(:last-child) {margin: 0 20px 0 0}
+    .main-block__body{padding: 250px 0 200px 0;}
+    .main-block__title{font-size: 32px;}
+    .main-block__name-song {font-size: 75px;}
+    .news__column{flex: 0 1 50%;}
+    .news__column:last-child{flex: 1 1 100%;}
+    .news__column:not(:last-child){margin: 0 0 30px 0;}
+    
+
+}
+
+@media screen and (max-width: 932px){
+    .perfect-music__container{display: block;}
+    .perfect-music__content {padding-bottom: 30px}
+    .perfect-music__photo img{margin: 0 auto}
+    .perfect-music__text::after{width:100%}
+    .gallery {padding: 120px 0 0 0;}
+    .gallery__wrapper {flex-direction: column; gap: 30px}
+    .gallery__concert{flex: 0 0 100%}
+
+}
+
+@media screen and (max-width: 767.98px){
+    .header__container{justify-content: space-around;}
+    .header__menu {margin: 0 0 0 10px}
+     .icon-menu{display: flex; position: relative;flex: 0 0 30px;height: 18px;flex-direction: column; justify-content: space-between;margin: 0 0 0 20px;}
+    .icon-menu.active{justify-content: center;}
+    .icon-menu.active::before{position: absolute;top: 50%;left: 0;width: 100%;transform: rotate(45deg);background-color: #ffffff}
+    .icon-menu.active::after{position: absolute;top: 50%;left: 0;width: 100%;transform: rotate(-45deg);background-color: #ffffff}
+    .icon-menu.active span{opacity:0;}
+    .icon-menu::before, .icon-menu::after{content: "";background-color: #ffffff;height: 2px;}
+    .icon-menu span{background-color: #ffffff;height: 2px;}
+    .menu__body{position: fixed;top: 0; right: -100%;width: 100%;height: 100%;background-color: #1C1B21;padding: 90px 15px 30px 15px;font-size: 20px;transition: right 0.3s ease 0s;overflow: auto;}
+    .menu__body.active{right: 0;}
+    body.active{overflow: hidden;}
+    .menu__list{flex-direction: column;justify-content: center;align-items: center;}
+    .menu__link{font-size: 24px;color: #ffffff;}
+    .menu__item:not(:last-child){margin: 0 30px 20px 0}
+    .tracks-content__title{font-size: 38px;}
+    .tracks__container{flex-direction: column;text-align: center;}
+    .tracks__image {margin-bottom: 30px}
+    .tracks {padding: 95px 0 0 0}
+    .tracks-content__audio{max-width: 100%;}
+ }
+
+
+@media screen and (max-width: 630px){
+    
+    .news__column{flex: 0 1 100%}
+    .block-text__items{column-count: 1}
+    .photos-bright-lights{padding: 0}
+    .photos-bright-lights__back{left:35px}
+    .block-text__title {font-size: 35px}
+    .perfect-music {padding: 80px 0 0 0}
+    .events {padding: 100px 0 0 0}
+    .footer {padding: 95px 0 40px 0;}
+    .contacts__social{margin: 0 0 40px 0}
+    .social-items__link:not(:last-child){margin: 0 0 20px 0;}
+    
+}
+
+
+@media screen and (max-width: 561px){
+    .contacts__names{font-size: 14px;}
+    .contacts__values{font-size: 14px;}
+}
+
+@media screen and (max-width: 479.98px){
+    .main-block__body{padding: 160px 0 200px 0;}
+    .main-block__title{font-size: 28px;}
+    .main-block__name-song {font-size: 50px;}
+    .photos-bright-lights__back{display: none;}
+    .perfect-music{padding: 0;}
+    .center-block-photos__vegas-text{font-size: 18px;}
+    .events-content__tickets{flex-direction: column;}
+    .events-content__buy{width: 100%; text-align: center;}
+    .events-content__date{margin: 0 0 20px 0;}
+    .events__content{padding: 0;}
+    .events-content__place{padding: 30px 0 0 20px;}
+    .events-content__adress{padding: 0 0 0 20px;}
+    .footer__contacts{flex-direction: column;}
+    .contacts__names{display: flex;text-align: center;justify-content: space-evenly;margin: 0 110px 0 0px;}
+    .contacts__names>p{margin: 0 10px 0 0;}
+    .contacts__values{display: flex;text-align: center;justify-content: space-evenly;}
+    .contacts__values>p{margin: 0 10px 0 0;}
+    .follow-me{font-size: 16px;margin: 0 10px 0 0;}
+    .tracks-content__title {font-size: 30px}
+    
+}
+
+@media screen and (max-width: 385px){
+    .contacts__names{font-size: 10px;}
+    .contacts__values{font-size: 10px;}
+}
+
