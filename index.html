@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon/logo-icon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -165,24 +166,35 @@
                     <div class="tracks__content tracks-content">
                         <h2 class="tracks-content__title">Last tracks</h2>
                         <div class="tracks-content__player">
-                            <audio controls class="tracks-content__audio">
+                            <!--<audio controls class="tracks-content__audio">
                                 <source src="audio/WarForLove.mp3" type="audio/mpeg">
+                            </audio>-->
+
+                            <audio id="track-audio">
+                                <source src="audio/Billie_eilish_bad_guy.mp3" type="audio/mpeg">
                             </audio>
+                            <div id="controls">
+                                <div class="audio-track">
+                                    <div class="time-tracks"></div>
+                                </div>
+                                <button id="playBtn2" class="play"></button>
+                            </div>
+
                             <div class="tracks-content__list">
                                 <ul class="list-tracks">
-                                    <li class="list-tracks__item"><a href="" class="list-tracks__link active">
-                                            <span>01</span> Bright Lights, Kaleena Zanders, Kandy — War For Love</a>
+                                    <li class="list-tracks__item"><button href="" id="track1" class="list-tracks__btn">
+                                            <span>01</span> Billie Eilish - Bad guy</button>
                                     </li>
-                                    <li class="list-tracks__item"><a href="" class="list-tracks__link"> <span>02</span>
-                                            3LAU, Bright Lights — How You Love Me</a></li>
-                                    <li class="list-tracks__item"><a href="" class="list-tracks__link"> <span>03</span>
-                                            Pink Is Punk, Benny Benassi, Bright Lights — Ghost</a></li>
-                                    <li class="list-tracks__item"><a href="" class="list-tracks__link"> <span>04</span>
-                                            Hardwell, Dyro, Bright Lights — Never Say Goodbye</a></li>
-                                    <li class="list-tracks__item"><a href="" class="list-tracks__link"> <span>05</span>
-                                            Zeds Dead, Dirtyphonics, Bright Lights — Where Are You Now</a></li>
-                                    <li class="list-tracks__item"><a href="" class="list-tracks__link"> <span>06</span>
-                                            Zedd, Bright Lights — Follow You Down</a></li>
+                                    <li class="list-tracks__item"><button href="" id="track2" class="list-tracks__btn"> <span>02</span>
+                                        Daft Punk - Get Lucky</button></li>
+                                    <li class="list-tracks__item"><button href="" id="track3" class="list-tracks__btn"> <span>03</span>
+                                        Radiohead - Jigsaw Falling Into Place</button></li>
+                                    <li class="list-tracks__item"><button href="" id="track4" class="list-tracks__btn"> <span>04</span>
+                                        System of A Down - Chop Suey</button></li>
+                                    <li class="list-tracks__item"><button href="" id="track5" class="list-tracks__btn"> <span>05</span>
+                                        The Prodigy - The day is my enemy</button></li>
+                                    <li class="list-tracks__item"><button href="" id="track6" class="list-tracks__btn"> <span>06</span>
+                                        Twenty One Pilots - Stressed Out</button></li>
                                 </ul>
                             </div>
                             <div class="tracks-content__follow-me">
